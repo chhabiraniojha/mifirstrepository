@@ -26,6 +26,7 @@ to know previous 2 days commit-    git log --since=2.days
 to know previous 2 weaks commit-    git log --since=2.weaks
 to change the commit message   -     git commit --amend
 to restore data in a file-                       git checkout -- <file name>
+restore all files to previous commit- git checkout -f
 ----
 1.sql * loader
 2.external tabale
