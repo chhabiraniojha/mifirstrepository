@@ -1,0 +1,32 @@
+command git
+------------------
+status of git folder-         git status
+making git repository-  git init
+for tracking staging-      git add --a
+for commit-                      git commit -m "initial commit"
+for commit record-        git log
+for adding one file for
+staging-                              git add rinku.txt
+for delete git file-              rm -rf .git
+touch  .gitignore
+comparing working 
+directory and staging area-  git diff  
+comparing staging area and
+previous commit-          git diff --staged
+for direct commit without staging- git commit -a -m "direct commit"
+remobe file through git command-    git rm <file name>
+To untrack a file -                                    git  rm --cached <file name>
+to know commit details -                          git log -p
+to know n commit details-                    git log -p -n
+short summury for commit -               git log --stat
+for 1 commit in one line -                     git log --pretty=oneline
+to know the commits info in short-           git log --pretty=short
+to know the commits info more than short- git log --pretty=full
+to know previous 2 days commit-    git log --since=2.days
+to know previous 2 weaks commit-    git log --since=2.weaks
+to change the commit message   -     git commit --amend
+----
+1.sql * loader
+2.external tabale
+3.utl files
+4.
